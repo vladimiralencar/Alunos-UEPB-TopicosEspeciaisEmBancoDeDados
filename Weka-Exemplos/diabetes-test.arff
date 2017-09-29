@@ -1,0 +1,13 @@
+@relation pima_diabetes
+@attribute 'preg' real
+@attribute 'plas' real
+@attribute 'pres' real
+@attribute 'skin' real
+@attribute 'insu' real
+@attribute 'mass' real
+@attribute 'pedi' real
+@attribute 'age' real
+@attribute 'class' { tested_negative, tested_positive}
+@data
+6,148,72,35,0,33.6,0.627,50,?
+1,85,66,29,0,26.6,0.351,31,?
