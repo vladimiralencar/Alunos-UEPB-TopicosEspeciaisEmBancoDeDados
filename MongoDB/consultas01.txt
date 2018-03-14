@@ -1,0 +1,21 @@
+<< seleção; usando primeiro argumento >>
+db.clientes.find ( {uf : "RJ" }, { _id : 0, nome : 1, uf : 1 } )
+
+<< seleção:  $or; ressaltar a presença do vetor >>
+db.clientes.find ( { $or : [ {uf : "ES" }, {uf : "MG" } ] },  { _id : 0, nome : 1, uf : 1 } )
+
+<< seleção:  $gte >>
+db.clientes.find ( { grauFidelidade : { $gte : 50 } },  { _id : 0, nome : 1, grauFidelidade : 1 } )
+
+<< seleção:  $and ; pressionar ENTER depois da projeção >>
+db.clientes.find ( { $and : [ { grauFidelidade : { $gte : 20 } }, { grauFidelidade : { $lte : 80 } } ] }, 
+ { _id : 0, nome : 1, grauFidelidade : 1 } )
+
+<< seleção: $exists >>
+db.clientes.find ( { uf : { $exists : 1 } }, { nome : 1, uf : 1 } ).count()
+
+<< seleção: busca em um vetor >>
+db.clientes.find ( { "dependentes.nome" : "Francisco" }, { _id : 0, nome : 1 , dependentes : 1 } )
+
+<< melhorando a saída com pretty>>
+db.clientes.find ( { "dependentes.grau" : "e" }, { _id : 0, nome : 1 , dependentes : 1 } ).pretty()

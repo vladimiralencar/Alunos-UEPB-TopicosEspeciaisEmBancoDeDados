@@ -1,0 +1,43 @@
+<< destacar argumento único (vetor); operador $group, 8 documentos sem UF >>
+db.clientes.aggregate ( [ { $group : {_id : "$uf", nome : {$sum : 1} } } ] )
+
+<< média >>
+db.clientes.aggregate([{$group : {_id : "$uf", nome : {$avg : "$grauFidelidade"}}}])
+
+<<media dos valores nao-nulos
+db.clientes.aggregate([ { $match: { grauFidelidade : {$exists : 1} }},
+                        {$group : {_id : "$uf", nome : {$avg : "$grauFidelidade"} } }
+                        ])
+db.clientes.aggregate([ { $match: { grauFidelidade : {$exists : 1} }},
+                        {$group : {_id : "$uf", avg_grau : {$avg : "$grauFidelidade"} } },
+                        {$sort: { avg_grau: -1}}
+                        ])
+# dois matches
+db.clientes.aggregate([ 
+                        { $match: { grauFidelidade : {$exists : 1}} } , 
+                        { $match: { uf : {$exists : 1}} } , 
+                        {$group : {_id : "$uf", avg_grau : {$avg : "$grauFidelidade"} } },
+                        {$sort: { avg_grau: 1}}
+                        ])
+
+<< encadeamentos: primeiro filtramos, depois agrupamos e finalmente ordenamos >>
+db.clientes.aggregate([
+                 	{ $match: { ativo:true } },
+                 	{ $group: { _id: "$uf", total: { $sum: 1 } } },
+                 	{ $sort: { total: -1 } }
+               	])
+
+<< outro exemplo> primeiro agrupamos, depois filtramos >>
+db.clientes.aggregate ( [ { $group : {_id : "$uf", nome : {$sum : 1} } }, 
+			  { $match: { nome : { $gt : 7 } } } ] )
+
+# alocar parte da consulta em disco
+db.clientes.aggregate ( [ { $group : {_id : "$uf", nome : {$sum : 1} } } ],
+                          {  allowDiskUse: true}
+                         )
+
+https://docs.mongodb.com/manual/reference/sql-aggregation-comparison/
+
+
+<< burlando erro de limitação de memória: allowDiskUse >>
+db.clientes.aggregate ( [ { $group : {_id : "$uf", nome : {$sum : 1} } } ] , { allowDiskUse : true }  )
