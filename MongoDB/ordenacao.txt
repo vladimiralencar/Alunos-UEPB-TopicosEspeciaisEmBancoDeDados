@@ -1,0 +1,12 @@
+<< ordenação >>
+db.clientes.find ( { uf : { $exists : 1 } }, { _id : 0, nome : 1, uf : 1 } ).sort ( { uf : 1 } )
+
+<< ordenação composta e decrescente >>
+db.clientes.find ( { uf : { $exists : 1 } }, { _id : 0, nome : 1, uf : 1 } ).sort ( { uf : 1, nome : -1 } )
+
+<< limit >>
+db.clientes.find ( {}, { _id : 0, nome : 1, grauFidelidade : 1 } ).sort ( { grauFidelidade : -1 } ).limit (3)
+
+<< skip: mostramos a partir do sexto >>
+db.clientes.find ( { grauFidelidade : { $exists : 1 } }, { _id : 0, nome : 1, grauFidelidade : 1
+ } ).sort ( { grauFidelidade : -1 } ).skip(5)

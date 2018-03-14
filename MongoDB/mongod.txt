@@ -1,0 +1,72 @@
+C:\"Program Files"\MongoDB\Server\3.2\bin\mongod --dbpath C:\mongodb\data\db
+
+mongoimport --stopOnError --db loja --collection clientes < clientes.json
+
+db.clientes.find();
+db.clientes.find({}, {nome:1,_id:0});
+db.clientes.findOne();    # acha um documento qualquer
+db.clientes.find({},{nome:1});
+db.clientes.find({},{nome:1, uf:1, _id:0});
+db.getCollection('clientes').find({})
+
+
+
+MongoDB 
+
+show dbs;
+
+show collections;
+
+db.v2.find({text: {$exists: ["dor de"]}},{_id:0,,text:1}).count();
+
+ db.v2.find({text: {$exists: ["dor de"]}},{_id:0, text:1});
+
+
+
+db.v2.find({},{_id:0, text:1});
+db.v2.find({},{_id:0, text:1}).count();
+
+
+db.dor.find({place: {$nin: [null] } }, {'place.full_name': 1});
+
+
+db.dor.find({created_at: {$exists: ["Tue Feb 09"]}});
+
+db.dor.find({text: {$exists: ["dor de"]}});
+
+
+db.dor.find({text: {$exists: ["dor de"]}, place: {$nin: [null] } }, {_id:0, 'place.full_name': 1});
+
+db.dor.find({place: {$nin: [null] } }, {'place.full_name': 1}).count();
+
+ db.dor.find({place: {$nin: [null] } }, {'place.full_name': 1}).sort({'place.full_name': 1})
+ db.dor.find({coordinates: {$nin: [null] } }, {'coordinates': 1})
+
+use <database>;
+
+db.dropDatabase();
+
+db.zica_collection.drop();
+
+
+backup bd:
+./mongodump --out /data/dumps
+
+
+C:\"Program Files"\MongoDB\Server\3.2\bin\mongodump --db twitter C:\mongodb\data\dumps
+
+./mongodump --db twitter --collection zicatest2   --out /data/dumps
+
+
+restaurar bd:
+
+mongorestore --db twitter path_to_bson_file
+
+para ver o tamanho dos arquivos em kbytes:
+
+ls -ilah *
+
+
+
+mongodump -h localhost -d twitter -c Collection_name -o C:\mongodb\data\dumps
+mongodump -h localhost -d twitter -o C:\mongodb\data\dumps

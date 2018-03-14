@@ -1,0 +1,60 @@
+<< 1) inserindo mais um documento >>
+db.clientes.insert ( { _id: 100, nome : "Leonard Mlodinow",  ativo : true , 
+dtNasc:ISODate("1954-04-30"), biografia: "https://pt.wikipedia.org/wiki/Leonard_Mlodinow" }  )
+
+<< 2) conferindo >>
+db.getCollection('clientes').find({_id: 100})
+
+db.clientes.find ( { _id: 100 } , { _id : 0 } ).pretty()
+
+<< 3) criando uma nova coleção >>
+db.teste.insert ( { a: 1 } )
+
+<< 4) inserindo através de uma variável >>
+	t = db.clientes
+	t.insert ( { _id : 200, nome : "Fernando Bonassi", grauFidelidade : 89.9})
+
+<< 5) atualização completa; troca um documento por outro >>
+db.clientes.update ( { _id: 100 }, { _id: 100, nome : "Leonard Mlodinow",  ativo : false , dtNasc:ISODate("1954-09-30"), biografia: "https://pt.wikipedia.org/wiki/Leonard_Mlodinow" }  )
+
+<< 6) atualização parcial; alteramos parte do documento >>
+
+db.clientes.update ( { _id: 100 }, { $set: { cidade : "Chicago" } }  )
+
+<< 7) atualizando através de uma variável >>
+	t = db.clientes
+	v = t.findOne ( { _id : 100 } )
+	v.ativo = true
+	t.update ( { _id : v._id } , v)
+print(v.ativo, v.nome, v.cidade)
+
+
+8.0) Selecao usando $eq (=), $ne (!=), $not
+db.getCollection('clientes').find( 
+           {uf : { $eq: "MG" }},      
+           {_id: 0, uf: 1, grauFidelidade: 1})
+OU
+db.getCollection('clientes').find( 
+           {uf :  "MG" },      
+           {_id: 0, uf: 1, grauFidelidade: 1})
+
+
+
+<< 8) incremento de valores em muitos documentos; mostrar dados antes e depois pela ferramenta gráfica >> 
+db.clientes.update ( {uf : "MG" ,  grauFidelidade : {$exists : true}},  { $inc : { grauFidelidade : 0.5} } , {upsert : false, multi : true })
+
+<< 9) merge: executar duas vezes; após a primeira, constatar inserção; após a segunda, a atualização>>
+db.clientes.update ( {nome : "Bernardo Carvalho"},  { $inc : { grauFidelidade : 1} } , {upsert : true, multi : true })
+
+<< 10) inserção em um vetor >>
+db.clientes.update ( { nome : {$regex: /Meireles/}},  { $addToSet : { dependentes: { nome : "Heitor Vinícius da Silveira Grilo", grau : "e"} } } )
+
+<< 11) remoção >>
+db.clientes.remove ( { _id: 100 }  )
+
+<< 12) remoção através de uma variável >>
+	t = db.clientes
+	t.remove ( { _id : 200 } )
+
+<< 13) removendo todos; depois fazer nova importação >>
+db.clientes.remove ( {  }  )
