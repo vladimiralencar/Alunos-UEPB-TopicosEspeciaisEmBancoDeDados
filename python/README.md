@@ -1,7 +1,7 @@
 
 # Python para Análise de Dados
 
-![alt text] (https://github.com/vladimiralencar/Alunos-UEPB-TopicosEspeciaisEmBancoDeDados/blob/master/python/Pipeline-Dados-Python.png)
+![Screenshot](https://github.com/vladimiralencar/Alunos-UEPB-TopicosEspeciaisEmBancoDeDados/blob/master/python/Pipeline-Dados-Python.png)
 
 # Coprocessor
 
