@@ -1,84 +1,84 @@
 # Usando o hadoop
 
-start-dfs.sh
-start-yarn.sh
+start-dfs.sh <br />
+start-yarn.sh <br />
 
 # Para acessar o Ambari:
-Ativar o Browser
+Ativar o Browser <br />
 http://dataserver:8080
 
 # Para Moitorar o Hadoop:
-Ativar o Browser
-http://localhost:8088
+Ativar o Browser <br />
+http://localhost:8088 <br />
 
-# Aplicacao Filmes:
+# Aplicacao Filmes: <br />
 
-hdfs dfs -put u.data /mapred # colocando um arquivo no hdfs
+hdfs dfs -put u.data /mapred # colocando um arquivo no hdfs <br />
 
-Executar um dataset no hadoop
+Executar um dataset no hadoop <br />
 python AvaliaFilme.py  hdfs:///mapred/u.data -r hadoop
 
-# redireciona a saida para um arquivo
+# redireciona a saida para um arquivo <br />
 python AvaliaFilme.py  hdfs:///mapred/u.data -r hadoop > /home/aluno/analytics/filmes.txt
 
-Aplicacao amigosFacebook:
+Aplicacao amigosFacebook: <br />
 
-hdfs dfs -put amigos_facebook.csv /mapred # coloca o arquivo no hdfs
-python AmigosIdade.py hdfs:///mapred/amigos_facebook.csv -r hadoop > /home/aluno/output/amigos_idade.txt
+hdfs dfs -put amigos_facebook.csv /mapred # coloca o arquivo no hdfs <br />
+python AmigosIdade.py hdfs:///mapred/amigos_facebook.csv -r hadoop > /home/aluno/output/amigos_idade.txt <br />
 
 # Aplicacao Livros:
 
-hdfs dfs -put OrgulhoePreconceito.txt /mapred/  # coloca o arquivo no hdfs
-python MR-DataMining-1.py hdfs:///mapred/OrgulhoePreconceito.txt -r hadoop > /home/aluno/output/livro1.txt
+hdfs dfs -put OrgulhoePreconceito.txt /mapred/  # coloca o arquivo no hdfs <br />
+python MR-DataMining-1.py hdfs:///mapred/OrgulhoePreconceito.txt -r hadoop > /home/aluno/output/livro1.txt <br />
 
 # Aplicacao Cloudera - logs de servidores
-hdfs dfs -mkdir /mapred
-hdfs dfs -put web_server.log /mapred
+hdfs dfs -mkdir /mapred <br />
+hdfs dfs -put web_server.log /mapred <br />
 
-hadoop jar /usr/lib/hadoop-0.20-mapreduce/contrib/streaming/hadoop-streaming-2.6.0-mr1-cdh5.12.0.jar -mapper mapper.py -reducer reducer.py -file mapper.py -file reducer.py -input /mapred/web_server.log -output /saida
+hadoop jar /usr/lib/hadoop-0.20-mapreduce/contrib/streaming/hadoop-streaming-2.6.0-mr1-cdh5.12.0.jar -mapper mapper.py -reducer reducer.py -file mapper.py -file reducer.py -input /mapred/web_server.log -output /saida <br />
 
-hdfs dfs -cat /saida/part-00000
+hdfs dfs -cat /saida/part-00000 <br />
 
-hdfs dfs -get /saida/part-00000 # pegar o arquivo do hdfs para o sistema linux
+hdfs dfs -get /saida/part-00000 => pegar o arquivo do hdfs para o sistema linux <br />
 
 # VM HortonWorks (Máquina Virtual)
-Ambari: Login: maria_dev, Password: maria_dev
-No terminal ( fn + option + f5): Login: root, Password: hadoop
+Ambari: Login: maria_dev, Password: maria_dev <br />
+No terminal ( fn + option + f5): Login: root, Password: hadoop <br />
 
-Criar tabela Hive:
-Menu -> Hive View
-create table estudantes
-(ID INT,
-nome VARCHAR(50),
-sobrenome VARCHAR(50),
-sexo Char(1),
-email VARCHAR(100));
+Criar tabela Hive: <br />
+Menu -> Hive View <br />
+create table estudantes <br />
+(ID INT, <br />
+nome VARCHAR(50), <br />
+sobrenome VARCHAR(50), <br />
+sexo Char(1), <br />
+email VARCHAR(100)); <br />
 
-INSERT INTO estudantes
-VALUES
-(1000,'Barack','Obama','M','barack@gmail.com');
+INSERT INTO estudantes <br />
+VALUES <br />
+(1000,'Barack','Obama','M','barack@gmail.com'); <br />
 
-select * from estudantes;
+select * from estudantes; <br />
 
-- Query -> Visualization
-- Query -> Data Explorer
+- Query -> Visualization <br />
+- Query -> Data Explorer <br />
 
 # Cloudera Hadoop (Máquina Virtual)
 
-http://quickstart.cloudera:7180
-Username: cloudera
-Password: cloudera
+http://quickstart.cloudera:7180 <br />
+Username: cloudera <br />
+Password: cloudera <br />
 
-Abrir o Terminal
-hbase shell
-version
-status
+Abrir o Terminal <br />
+hbase shell <br />
+version <br />
+status <br />
 
 # HBASE
- create 'dsacademy', {NAME=>'ALUNO'},{NAME=>'INSTRUTOR'}
- alter 'dsacademy', {NAME=>'CURSOS'}
-list
-describe 'dsacademy'
-exists 'dsacademy'
-disable 'dsacademy'
-drop 'dsacademy'
+ create 'dsacademy', {NAME=>'ALUNO'},{NAME=>'INSTRUTOR'} <br />
+ alter 'dsacademy', {NAME=>'CURSOS'} <br />
+list <br />
+describe 'dsacademy' <br />
+exists 'dsacademy' <br />
+disable 'dsacademy' <br />
+drop 'dsacademy' <br />
