@@ -3,7 +3,7 @@
 
 Pipeline de Aquisição de Dados em Python
 
-![Screenshot] (https://github.com/vladimiralencar/Alunos-UEPB-TopicosEspeciaisEmBancoDeDados/blob/master/python/DataAcquisitionPipeline.png)
+![Image] (https://github.com/vladimiralencar/Alunos-UEPB-TopicosEspeciaisEmBancoDeDados/blob/master/python/DataAcquisitionPipeline.png)
 
 # Estruturas básicas
 1. lista
