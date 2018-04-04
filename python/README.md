@@ -1,13 +1,12 @@
 
 # Python para Análise de Dados
 
-Pipeline de Aquisição de Dados em Python
+Pipeline de Aquisição de Dados em Python <br /> <br />
 
 ![image](DataAcquisitionPipeline.png)
 
-![Image] (https://github.com/vladimiralencar/Alunos-UEPB-TopicosEspeciaisEmBancoDeDados/blob/master/python/)
 
-# Estruturas básicas
+# Python - Estruturas básicas
 1. lista
 2. tupla
 3. dicionário
