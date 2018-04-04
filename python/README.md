@@ -18,7 +18,7 @@ Pipeline
 # Cursos de Python para análise dados
 
 Recomendo o curso da DataScienceAcademy (Gratuito e completo) <br />
-[Python fundamentos para a análise de dados]
+[Python fundamentos para a análise de dados] <br />
 (https://www.datascienceacademy.com.br/path-player?courseid=python-fundamentos)
 
 Tutorial Points:
