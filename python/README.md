@@ -1,13 +1,24 @@
 
 # Python para Análise de Dados
 
+Pipeline
+
 ![Screenshot](https://github.com/vladimiralencar/Alunos-UEPB-TopicosEspeciaisEmBancoDeDados/blob/master/python/Pipeline-Dados-Python.png)
 
-# Coprocessor
+# Estruturas básicas
+1. lista
+2. tupla
+3. dicionário
+4. Array, matriz (usar o pacoate Numpy, Scipy)
+5. Dataframes, Series (usar o pacote Pandas)
+6. Strings
+7. List compreension
+8. Map/Reduce
 
-De uma forma macro e resumida, podemos definir o coprocessor como um framework que provém um caminho fácil para executar seu código customizado dentro do HBase. As analogias mais comumentes utilizadas para representar o coprocessor são "Trigger / Store Procedure" e AOP. 
+# Cursos de Python para análise dados
 
-O coprocessor pode ser desenvolvido como:
-- Observer Coprocessor: é como uma "trigger" de banco de dados, ou seja, é acionado antes ou após um determinado evento. 
-- Endpoint Coprocessor: é como uma "store procedure" de um banco de dados, sendo que esse tipo de coprocessor deve ser acionado explicitamente através do método 'CoprocessorService ()' da 'HTableInterface' (ou HTable).
+Recomendo o curso da DataScienceAcademy (Gratuito e completo)
+[Sites Using React](https://www.datascienceacademy.com.br/path-player?courseid=python-fundamentos)
+
+Tutorial Points:
 
