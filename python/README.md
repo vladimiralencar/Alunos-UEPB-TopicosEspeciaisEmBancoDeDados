@@ -21,5 +21,11 @@ Recomendo o curso da DataScienceAcademy (Gratuito e completo) <br />
 Python fundamentos para a análise de dados <br />
 (https://www.datascienceacademy.com.br/path-player?courseid=python-fundamentos)
 
-Tutorial Points:
+Tutorial Points: <br />
+(http://www.tutorialspoint.com/python/python_quick_guide.htm)
+
+Pandas: <br />
+(http://pandas.pydata.org/pandas-docs/stable/10min.html)
+
+
 
