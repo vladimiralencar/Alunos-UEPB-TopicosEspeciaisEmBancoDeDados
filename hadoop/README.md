@@ -3,6 +3,9 @@ Iniciando o hadoop e o gerenciador de recursos YARN: <br />
 start-dfs.sh <br />
 start-yarn.sh <br />
 
+Vericar os processo hadoop: <br />
+jps
+
 # Para acessar o Ambari:
 Ativar o Browser <br />
 http://dataserver:8080
