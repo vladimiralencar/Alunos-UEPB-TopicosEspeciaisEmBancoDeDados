@@ -6,7 +6,7 @@ Pipeline de Aquisição de Dados em Python <br /> <br />
 ![image](DataAcquisitionPipeline.png)
 
 
-# Python - Estruturas básicas
+# Python - Estruturas básicas para Análise de Dados
 1. Lista
 2. Tupla
 3. Dicionário
@@ -20,13 +20,13 @@ Pipeline de Aquisição de Dados em Python <br /> <br />
 
 Recomendo o curso da DataScienceAcademy (Gratuito e completo) <br />
 Python fundamentos para a análise de dados <br />
-(https://www.datascienceacademy.com.br/path-player?courseid=python-fundamentos)
+https://www.datascienceacademy.com.br/path-player?courseid=python-fundamentos
 
 Tutorial Points: <br />
-(http://www.tutorialspoint.com/python/python_quick_guide.htm)
+http://www.tutorialspoint.com/python/python_quick_guide.htm
 
 Pandas: <br />
-(http://pandas.pydata.org/pandas-docs/stable/10min.html)
+http://pandas.pydata.org/pandas-docs/stable/10min.html
 
 
 
