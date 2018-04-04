@@ -7,9 +7,9 @@ Pipeline de Aquisição de Dados em Python <br /> <br />
 
 
 # Python - Estruturas básicas
-1. lista
-2. tupla
-3. dicionário
+1. Lista
+2. Tupla
+3. Dicionário
 4. Array, matriz (usar o pacoate Numpy, Scipy)
 5. Dataframes, Series (usar o pacote Pandas)
 6. Strings
