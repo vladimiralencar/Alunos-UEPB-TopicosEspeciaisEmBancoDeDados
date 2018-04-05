@@ -1,17 +1,13 @@
 # Curso: Introdução à Ciência de Dados <br />Conteúdo Programático<br />
 
-1.Introdução (Motivação) <br />
-
-1.2.O que é Ciência de Dados (Data Science) ? <br />
+1. Introdução (Motivação) <br />
+1.2 O que é Ciência de Dados (Data Science) ? <br />
 Conceitos <br />
 Que profissão é essa <br />
 Organizações Data Driven <br />
-
-1.3. Linguagens usadas em Data Science <br />
+1.3 Linguagens usadas em Data Science <br />
 Python, R, Java, Scala <br />
-
 1.4 Curso Rápido de Python para Análise de Dados <br /> <br />
-
 2.Data Science e Big Data <br />
 Introdução <br />
 O que é Big Data <br />
@@ -20,7 +16,7 @@ Modelos de Computação Distribuída <br /> <br />
 4.Machine Learning (Aprendizado de Máquina) <br />
 (Aprendizado Supervisionado e Aprendizado não-Supervisionado) <br />
 Fundamentação Teórica <br />
-Algorítmos de ML <br /> <br /><br />
+Algorítmos de ML <br /> <br />
 5. Engenharia de dados <br />
 5.1 Hadoop <br />
 5.2 Spark <br /><br />
