@@ -16,19 +16,19 @@ Python, R, Java, Scala <br />
 Introdução <br />
 O que é Big Data <br />
 Modelos de Computação Distribuída <br /> <br />
-3. Machine Learning, Mineração de Dados e Usos<br />
+3. Machine Learning, Mineração de Dados e Usos<br /><br />
 4.Machine Learning (Aprendizado de Máquina) <br />
 (Aprendizado Supervisionado e Aprendizado não-Supervisionado) <br />
 Fundamentação Teórica <br />
-Algorítmos de ML <br /> <br />
+Algorítmos de ML <br /> <br /><br />
 5. Engenharia de dados <br />
 5.1 Hadoop <br />
-5.2 Spark <br />
+5.2 Spark <br /><br />
 6. Bancos de Dados NoSQL <br />
-7. Introdução ao MongoDB <br />
+7. Introdução ao MongoDB <br /><br />
 8. Análise de Mídias Sociais <br />
-Twitter, Facebook, Youtube, etc <br />
+Twitter, Facebook, Youtube, etc <br /><br />
 9. Processamento de Linguagem Natural (PLN) <br />
 PLN e Análise de texto <br />
-Datasets e Arquivos .py <br />
+Datasets e Arquivos .py <br /><br />
 10.Visualização dos dados <br />
