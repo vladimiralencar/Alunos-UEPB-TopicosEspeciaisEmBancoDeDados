@@ -1,4 +1,6 @@
-# Curso: Introdução à Ciência de Dados <br />Conteúdo Programático<br />
+# Curso: Introdução à Ciência de Dados <br />Prof. Dr. Vladimir Costa de Alencar: webpage: https://www.valencar.com/topicos-especiais-em-banco-de-dados <br />
+Conteúdo Programático<br />
+
 
 1. Introdução (Motivação) <br />
 1.2. O que é Ciência de Dados (Data Science) ? <br />
@@ -20,7 +22,7 @@ Algorítmos de ML <br /> <br />
 5. Engenharia de dados <br />
 5.1. Hadoop <br />
 5.2. Spark <br /><br />
-6. Bancos de Dados NoSQL <br />
+6. Bancos de Dados NoSQL <br /><br />
 7. Introdução ao MongoDB <br /><br />
 8. Análise de Mídias Sociais <br />
 Twitter, Facebook, Youtube, etc <br /><br />
