@@ -15,7 +15,7 @@ Python, R, Java, Scala <br />
 2.Data Science e Big Data <br />
 Introdução <br />
 O que é Big Data <br />
-Modelos de Computação Distribuída <br /><br />
+Modelos de Computação Distribuída <br /> <br />
 
 3. Machine Learning, Mineração de Dados e Usos<br />
 
