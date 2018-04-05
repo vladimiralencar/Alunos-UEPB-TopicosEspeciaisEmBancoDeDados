@@ -1,3 +1,4 @@
+
 # Python para Análise de Dados
 
 Pipeline de Aquisição de Dados em Python <br /> <br />
@@ -26,3 +27,6 @@ http://www.tutorialspoint.com/python/python_quick_guide.htm
 
 Pandas: <br />
 http://pandas.pydata.org/pandas-docs/stable/10min.html
+
+
+
