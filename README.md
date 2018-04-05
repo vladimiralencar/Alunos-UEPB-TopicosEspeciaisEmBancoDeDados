@@ -1,4 +1,4 @@
-# Curso: Introdução à Ciência de Dados - Conteúdo Programático
+# Curso: Introdução à Ciência de Dados <br />Conteúdo Programático<br />
 
 1.Introdução (Motivação) <br />
 
