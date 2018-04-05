@@ -28,4 +28,4 @@ Twitter, Facebook, Youtube, etc <br /><br />
 9. Processamento de Linguagem Natural (PLN) <br />
 PLN e Análise de texto <br />
 Datasets e Arquivos .py <br /><br />
-10.Visualização dos dados <br />
+10. Visualização dos dados <br />
