@@ -1,7 +1,6 @@
-# Curso: Introdução à Ciência de Dados <br />Prof. Dr. Vladimir Costa de Alencar: webpage: https://www.valencar.com/topicos-especiais-em-banco-de-dados <br />
+# Curso: Introdução à Ciência de Dados <br />
+Prof. Dr. Vladimir Costa de Alencar: webpage: https://www.valencar.com/topicos-especiais-em-banco-de-dados <br />
 Conteúdo Programático<br />
-
-
 1. Introdução (Motivação) <br />
 1.2. O que é Ciência de Dados (Data Science) ? <br />
 Conceitos <br />
