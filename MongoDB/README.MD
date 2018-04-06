@@ -1,4 +1,4 @@
-![image] (mongodb.jpeg)
+![image] (mongodb.png)
 
 # MONGO - COMANDOS BÁSICOS 
 
