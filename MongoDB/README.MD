@@ -1,3 +1,5 @@
+![image] (mongodb.jpeg)
+
 # MONGO - COMANDOS BÁSICOS 
 
 
