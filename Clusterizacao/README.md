@@ -1,0 +1,2 @@
+# Clusterização
+![image](clusterizacao.jpg)
