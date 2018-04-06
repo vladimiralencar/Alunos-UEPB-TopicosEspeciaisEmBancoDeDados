@@ -1,4 +1,4 @@
-[image](haddoop.jpeg)
+[image](haddoop.png)
 # Usando o hadoop
 Iniciando o hadoop e o gerenciador de recursos YARN: <br />
 start-dfs.sh <br />
