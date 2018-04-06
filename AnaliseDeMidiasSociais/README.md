@@ -1,3 +1,3 @@
 # Análise de Mídias Sociais
 
-![image](midiassociais.png
+![image](midiassociais.png)
