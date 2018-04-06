@@ -1,1 +1,1 @@
-![image](analisedesentimentos.jpg)
+![image](analisedesentimentos.png)
