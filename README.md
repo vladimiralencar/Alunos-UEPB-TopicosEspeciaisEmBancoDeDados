@@ -25,7 +25,7 @@ Algorítmos de ML <br /> <br />
 6. Bancos de Dados NoSQL <br /><br />
 7. Introdução ao MongoDB <br /><br />
 8. Análise de Mídias Sociais <br />
-Twitter, Facebook, Youtube, etc <br /><br />
+Twitter, Facebook, Youtube, Spotify, etc <br /><br />
 9. Processamento de Linguagem Natural (PLN) <br />
 PLN e Análise de texto <br />
 Datasets e Arquivos .py <br /><br />
