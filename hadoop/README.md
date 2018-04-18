@@ -33,8 +33,8 @@ python AmigosIdade.py hdfs:///mapred/amigos_facebook.csv -r hadoop > /home/aluno
 
 # Aplicacao Livros:
 
-hdfs dfs -put OrgulhoePreconceito.txt /mapred/  # coloca o arquivo no hdfs <br />
-python MR-DataMining-1.py hdfs:///mapred/OrgulhoePreconceito.txt -r hadoop > /home/aluno/output/livro1.txt <br />
+hdfs dfs -put Hamlet.txt /mapred/  # coloca o arquivo no hdfs <br />
+python MR-DataMining-1.py hdfs:///mapred/Hamlet.txt -r hadoop > /home/aluno/output/livro1.txt <br />
 
 # Aplicacao Cloudera - logs de servidores
 hdfs dfs -mkdir /mapred <br />
@@ -61,7 +61,7 @@ email VARCHAR(100)); <br />
 
 INSERT INTO estudantes <br />
 VALUES <br />
-(1000,'Barack','Obama','M','barack@gmail.com'); <br />
+(1000,'Paula','Toller','F','paula@kidabelha.com'); <br />
 
 select * from estudantes; <br />
 
@@ -80,10 +80,10 @@ version <br />
 status <br />
 
 # HBASE
- create 'dsacademy', {NAME=>'ALUNO'},{NAME=>'INSTRUTOR'} <br />
- alter 'dsacademy', {NAME=>'CURSOS'} <br />
+ create 'uepb', {NAME=>'ALUNO'},{NAME=>'INSTRUTOR'} <br />
+ alter 'uepb', {NAME=>'CURSOS'} <br />
 list <br />
-describe 'dsacademy' <br />
-exists 'dsacademy' <br />
-disable 'dsacademy' <br />
-drop 'dsacademy' <br />
+describe 'uepb' <br />
+exists 'uepb' <br />
+disable 'uepb' <br />
+drop 'uepb' <br />
