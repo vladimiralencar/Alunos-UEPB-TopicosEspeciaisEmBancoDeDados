@@ -21,12 +21,12 @@ Fundamentação Teórica <br />
 Algorítmos de ML <br /> <br />
 5. Engenharia de dados <br />
 5.1. Hadoop <br />
-5.2. Spark <br /><br />
-6. Bancos de Dados NoSQL <br /><br />
-7. Introdução ao MongoDB <br /><br />
-8. Análise de Mídias Sociais <br />
+6. Spark <br /><br />
+7. Bancos de Dados NoSQL <br /><br />
+8. Introdução ao MongoDB <br /><br />
+9. Análise de Mídias Sociais <br />
 Twitter, Facebook, Youtube, Instagram, Spotify, etc <br /><br />
-9. Processamento de Linguagem Natural (PLN) <br />
+10. Processamento de Linguagem Natural (PLN) <br />
 PLN e Análise de texto <br />
 Datasets e Arquivos .py <br /><br />
-10. Visualização dos dados <br />
+11. Visualização dos dados <br />
