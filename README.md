@@ -19,8 +19,7 @@ Modelos de Computação Distribuída <br /> <br />
 (Aprendizado Supervisionado e Aprendizado não-Supervisionado) <br />
 Fundamentação Teórica <br />
 Algorítmos de ML <br /> <br />
-5. Engenharia de dados <br />
-5.1. Hadoop <br /><br />
+5. Hadoop e Engenharia de dados <br /><br />
 6. Spark <br /><br />
 7. Bancos de Dados NoSQL <br /><br />
 8. Introdução ao MongoDB <br /><br />
