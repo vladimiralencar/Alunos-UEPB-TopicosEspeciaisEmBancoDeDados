@@ -10,11 +10,20 @@ Pipeline de Aquisição de Dados em Python <br /> <br />
 1. Lista
 2. Tupla
 3. Dicionário
-4. Array, matriz (usar o pacoate Numpy, Scipy)
-5. Dataframes, Series (usar o pacote Pandas)
+4. Array, matriz (pacote Numpy, Scipy)
+5. Dataframes, Series (pacote Pandas)
 6. Strings
 7. List compreension
 8. Map/Reduce
+
+# Python - Pacotes para Análise de Dados
+1. Scikit-learn (Machine Learning)
+2. Statsmodels (Estatística)
+3. Matplotlib (Gráficos)
+4. Seaborn (Gráficos)
+5. ggplot2 (Gráficos)
+6. Geopandas (Mapas com Dataframes)
+7. Folium (Mapas)
 
 # Cursos de Python para análise dados
 
