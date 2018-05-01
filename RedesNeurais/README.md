@@ -1,2 +1,2 @@
 # Redes Neurais
-![image](redeneural.png)
+![image](images/redesneurais.png)
