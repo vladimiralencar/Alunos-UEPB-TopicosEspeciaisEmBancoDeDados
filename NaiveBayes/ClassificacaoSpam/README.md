@@ -1,2 +1,2 @@
 # Clasificação de Spam
-![image](spam.png)
+![image](spam.jpg)
