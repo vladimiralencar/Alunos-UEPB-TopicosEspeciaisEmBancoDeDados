@@ -56,7 +56,7 @@ email VARCHAR(100));
 
 INSERT INTO estudantes
 VALUES
-(1000,'Barack','Obama','M','barack@gmail.com');
+(1000,'Vladimir','Alencar','M','valencar2@gmail.com');
 
 select * from estudantes;
 
@@ -75,13 +75,13 @@ version
 status
 
 # HBASE
- create 'dsacademy', {NAME=>'ALUNO'},{NAME=>'INSTRUTOR'}
- alter 'dsacademy', {NAME=>'CURSOS'}
+ create 'uepb', {NAME=>'ALUNO'},{NAME=>'INSTRUTOR'}
+ alter 'uepb', {NAME=>'CURSOS'}
 list
-describe 'dsacademy'
-exists 'dsacademy'
-disable 'dsacademy'
-drop 'dsacademy'
+describe 'uepb'
+exists 'uepb'
+disable 'uepb'
+drop 'uepb'
 
 
 
