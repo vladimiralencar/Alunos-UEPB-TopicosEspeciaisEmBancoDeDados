@@ -27,5 +27,3 @@ Algorítmos de ML <br /> <br />
 Twitter, Facebook, Youtube, Instagram, Spotify, etc <br /><br />
 10. Processamento de Linguagem Natural (PLN) <br />
 PLN e Análise de texto <br />
-Datasets e Arquivos .py <br /><br />
-11. Visualização dos dados <br />
