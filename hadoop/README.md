@@ -9,13 +9,12 @@ Vericar os processo hadoop: <br />
 jps
 
 # Executar uma Aplicação
-$ jps ==> verificar se os serviços estão ativos
-2422 NameNode
-2566 DataNode
-3015 NodeManager
-2905 ResourceManager
-2746 SecondaryNameNode
-3133 Jps
+$ jps ==> verificar se os serviços estão ativos <br />
+2422 NameNode <br />
+2566 DataNode<br />
+3015 NodeManager<br />
+2905 ResourceManager<br />
+2746 SecondaryNameNode<br /><br />
 
 hdfs dfs -ls /
 
