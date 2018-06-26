@@ -8,6 +8,28 @@ start-yarn.sh <br />
 Vericar os processo hadoop: <br />
 jps
 
+# Executar uma Aplicação
+$ jps ==> verificar se os serviços estão ativos
+2422 NameNode
+2566 DataNode
+3015 NodeManager
+2905 ResourceManager
+2746 SecondaryNameNode
+3133 Jps
+
+hdfs dfs -ls /
+
+hdfs dfs -mkdir /bigdata
+
+hadoop fs -copyFromLocal contratos.csv /bigdata
+
+hadoop jar /opt/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.8.1.jar  wordcount /bigdata/contratos.csv /output14
+
+mkdir saida
+hdfs dfs -get /output12/*
+cd saida
+cat *
+
 # Para acessar o Ambari:
 Ativar o Browser <br />
 http://dataserver:8080
