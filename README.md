@@ -19,11 +19,12 @@ Modelos de Computação Distribuída <br /> <br />
 (Aprendizado Supervisionado e Aprendizado não-Supervisionado) <br />
 Fundamentação Teórica <br />
 Algorítmos de ML <br /> <br />
-5. Hadoop e Engenharia de dados <br /><br />
-6. Spark <br /><br />
-7. Bancos de Dados NoSQL <br /><br />
-8. Introdução ao MongoDB <br /><br />
-9. Análise de Mídias Sociais <br />
+5. Deep Learning
+6. Hadoop e Engenharia de dados <br /><br />
+7. Spark <br /><br />
+8. Bancos de Dados NoSQL <br /><br />
+9. Introdução ao MongoDB <br /><br />
+10. Análise de Mídias Sociais <br />
 Twitter, Facebook, Youtube, Instagram, Spotify, etc <br /><br />
-10. Processamento de Linguagem Natural (PLN) <br />
+11. Processamento de Linguagem Natural (PLN) <br />
 PLN e Análise de texto <br />
