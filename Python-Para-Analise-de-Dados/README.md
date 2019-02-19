@@ -16,6 +16,14 @@ Pipeline de Aquisição de Dados em Python <br /> <br />
 7. List compreension
 8. Map/Reduce
 
+# Python - Pacotes Básicos
+1. Numpy <br>
+Pacote fundamental que suporta arrays e matrizes multidimensionais, possuindo uma larga coleção de funções matemáticas para trabalhar com estas estruturas  <br>
+2. Pandas  <br>
+Pacote para manipulação e análise de dados. Em particular, oferece estruturas de dados e operações para manipular tabelas numéricas e séries temporais.  <br>
+3. Scipy  <br>
+É uma biblioteca Open Source em linguagem Python que foi feita para matemáticos, cientistas e engenheiros.  <br>
+
 # Python - Pacotes para Análise de Dados
 1. Scikit-learn (Machine Learning)
 2. Statsmodels (Estatística)
