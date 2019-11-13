@@ -1,3 +1,3 @@
 # Processamento de Linguagem Natural
 
-(Natural-language-processing-2.jpeg)
+[image](Natural-language-processing-2.jpeg)
