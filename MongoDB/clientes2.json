@@ -1,0 +1,25 @@
+{ "nome" : "Anibal Monteiro Machado" , "uf" : "MG", "ativo" : true }     
+{ "nome" : "Mario Raul de Morais Andrade", "uf" : "MG"  , "ativo" : false, "dependentes" : [ { "nome" : "Tais", "grau" : "e"} ] } 
+{ "nome" : "Bernardo Elis Fleury de Campos Curado", "uf" : "SP" , "ativo" : false  }
+{ "nome" : "Carlos Drummond de Andrade", "uf" : "SP"  , "ativo" : true , "dtNasc": "1902-10-31T00:00:00Z", "biografia": "http://www.releituras.com/drummond_bio.asp" }
+{ "nome" : "Osman da Costa Lins", "uf" : "ES" , "grauFidelidade" : 60.8 , "ativo" : true }
+{ "nome" : "Murilo Eugenio Rubiao", "uf" : "MG" , "ativo" : false  }
+{ "nome" : "Samuel Rawet" , "uf" : "MG" , "ativo" : false }
+{ "nome" : "Rubem Braga" , "uf" : "RJ", "dependentes" : [ { "nome" : "Zelia", "grau" : "e"}, { "nome" : "Gilberto", "grau" : "f"}, { "nome" : "Hugo", "grau" : "f"}, { "nome" : "Ines", "grau" : "f"}, { "nome" : "Jose Augusto", "grau" : "f"}, { "nome" : "Luisa", "grau" : "f"}, { "nome" : "Madalena", "grau" : "f"} ] } 
+{ "nome" : "Rachel de Queiroz", "uf" : "MG"  }
+{ "nome" : "Erico Lopes Verissimo" , "uf" : "MG" , "dtNasc":"1905-12-17T00:00:00Z", "biografia": "http://www.releituras.com/everissimo_bio.asp" }
+{ "nome" : "Jose J. Veiga", "uf" : "SP"  }
+{ "nome" : "Jose Rubem Fonseca" , "uf" : "SP" }
+{ "nome" : "Dinah Silveira de Queiroz", "uf" : "MG", "dependentes" : [ { "nome" : "Zelio", "grau" : "e"} ] }
+{ "nome" : "Clarice Lispector" , "uf" : "MG" }
+{ "nome" : "Otto de Oliveira Lara Resende" , "uf" : "MG" }
+{ "nome" : "Origenes Lessa", "uf" : "RJ"  }
+{ "nome" : "Lygia Fagundes Telles" , "dtNasc": "1923-04-19T00:00:00Z",  "biografia": "http://www.releituras.com/lftelles_bio.asp" }
+{ "nome" : "Fernando Tavares Sabino"  }
+{ "nome" : "Dalton Jérson Trevisan"  }
+{ "nome" : "Carlos Heitor Cony"  }
+{ "nome" : "Roberto Francis Drummond"  }
+{ "nome" : "Nélida Cuiñas Piñon"  , "grauFidelidade" : 32.70}
+{ "nome" : "Joao Ubaldo Osorio Pimentel Ribeiro", "grauFidelidade" : 98, "dtNasc": "1941-01-23T00:00:00Z"  }
+{ "nome" : "Sergio Sant''Anna" , "grauFidelidade" : 2 }
+{ "nome" : "Cecília Benevides de Carvalho Meireles" , "uf":"RJ",  "dtNasc": "1901-11-07T00:00:00Z" } 
