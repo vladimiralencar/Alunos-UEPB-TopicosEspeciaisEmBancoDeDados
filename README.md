@@ -59,6 +59,6 @@ Twitter, Facebook, Youtube, Instagram, Spotify, etc <br />
 12. Processamento de Linguagem Natural (PLN) <br />  <br />
 PLN e Análise de texto <br />
 
-Twitter, Facebook, Youtube, Instagram, Spotify, etc <br /><br />
-11. Processamento de Linguagem Natural (PLN) <br />
+13. Twitter, Facebook, Youtube, Instagram, Spotify, etc <br /><br />
+14. Processamento de Linguagem Natural (PLN) <br /> <br />
 PLN e Análise de texto <br />
