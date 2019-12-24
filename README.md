@@ -1,8 +1,8 @@
 # Curso: Introdução à Ciência de Dados e Big Data<br />
 Prof. Dr. Vladimir Costa de Alencar: webpage: https://www.valencar.com/topicos-especiais-em-banco-de-dados <br /><br />
 ![image](big-data-analytics.jpg)
-Conteúdo Programático<br />
-1. Introdução (Motivação) <br />
+Conteúdo Programático<br />  <br />
+1. Introdução (Motivação) <br />  <br />
 1.2. O que é Ciência de Dados (Data Science) ? <br />
 Conceitos <br />
 Que profissão é essa <br />
@@ -10,17 +10,18 @@ Organizações Data Driven <br />
 1.3. Linguagens usadas em Data Science <br />
 Python, R, Java, Scala <br />
 1.4. Curso Rápido de Python para Análise de Dados <br /> <br />
-2. Data Science e Big Data <br />
+
+2. Data Science e Big Data <br />  <br /> 
 Introdução <br />
 O que é Big Data <br />
 Modelos de Computação Distribuída <br /> <br />
 3. Machine Learning, Mineração de Dados e Usos<br /><br />
-4. Machine Learning (Aprendizado de Máquina) <br />
+4. Machine Learning (Aprendizado de Máquina) <br />  <br />
 (Aprendizado Supervisionado e Aprendizado não-Supervisionado) <br />
 Fundamentação Teórica <br />
 Algorítmos de ML <br /> <br />
 
-5. Redes Neurais  <br />
+5. Redes Neurais  <br />  <br />
 5.1. Componentes Básicos das Redes Neurais Artificiais - RNAs  <br />
 5.2. O Sistema Nervoso  <br />
 5.3. O Neurônio  <br />
@@ -35,7 +36,7 @@ Algorítmos de ML <br /> <br />
 5.12. Backpropagation – Ajuste de parâmetros <br />
 5.13. Otimizadores – Regra Delta  <br />  <br />
 
-6.Deep Learning  <br />
+6.Deep Learning  <br />  <br />
 6.1.Introdução e conceitos básicos <br />
 6.2.A Arquitetura das Redes Neurais  <br />
 6.3. Os principais tipos de Redes Neurais  <br />
@@ -55,7 +56,7 @@ Algorítmos de ML <br /> <br />
 11. Análise de Mídias Sociais <br /><br />
 Twitter, Facebook, Youtube, Instagram, Spotify, etc <br />
 
-12. Processamento de Linguagem Natural (PLN) <br />
+12. Processamento de Linguagem Natural (PLN) <br />  <br />
 PLN e Análise de texto <br />
 
 Twitter, Facebook, Youtube, Instagram, Spotify, etc <br /><br />
