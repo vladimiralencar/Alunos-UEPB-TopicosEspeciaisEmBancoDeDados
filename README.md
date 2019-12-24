@@ -19,12 +19,45 @@ Modelos de Computação Distribuída <br /> <br />
 (Aprendizado Supervisionado e Aprendizado não-Supervisionado) <br />
 Fundamentação Teórica <br />
 Algorítmos de ML <br /> <br />
-5. Deep Learning <br /><br />
-6. Hadoop e Engenharia de dados <br /><br />
-7. Spark <br /><br />
-8. Bancos de Dados NoSQL <br /><br />
-9. Introdução ao MongoDB <br /><br />
-10. Análise de Mídias Sociais <br />
+
+5. Redes Neurais  <br />
+5.1. Componentes Básicos das Redes Neurais Artificiais - RNAs  <br />
+5.2. O Sistema Nervoso  <br />
+5.3. O Neurônio  <br />
+5.4. Sinapses  <br />
+5.5. Neurônio x Redes Neurais Artificiais  <br />
+5.6. Arquitetura  <br />
+5.7. O aprendizado  <br />
+5.8. Redes Perceptron  <br />
+5.9. Redes ADALINE – Regra Delta  <br />
+5.10. Perceptron Multicamadas - MLP  <br />
+5.11. Algoritmo BackPropagation  <br />
+5.12. Backpropagation – Ajuste de parâmetros <br />
+5.13. Otimizadores – Regra Delta  <br />  <br />
+
+6.Deep Learning  <br />
+6.1.Introdução e conceitos básicos <br />
+6.2.A Arquitetura das Redes Neurais  <br />
+6.3. Os principais tipos de Redes Neurais  <br />
+6.4. Frameworks de Deep Learning  <br />
+6.5. Programação paralela em GPU  <br />
+6.6 TensorFlow  <br />
+6.7 Keras  <br /> <br />
+
+7. Hadoop e Engenharia de Dados <br /> <br />
+
+8. Spark <br /> <br />
+
+9. Bancos de Dados NoSQL <br /> <br />
+
+10. Introdução ao MongoDB <br /> <br />
+
+11. Análise de Mídias Sociais <br /><br />
+Twitter, Facebook, Youtube, Instagram, Spotify, etc <br />
+
+12. Processamento de Linguagem Natural (PLN) <br />
+PLN e Análise de texto <br />
+
 Twitter, Facebook, Youtube, Instagram, Spotify, etc <br /><br />
 11. Processamento de Linguagem Natural (PLN) <br />
 PLN e Análise de texto <br />
