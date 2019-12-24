@@ -36,7 +36,7 @@ Algorítmos de ML <br /> <br />
 5.12. Backpropagation – Ajuste de parâmetros <br />
 5.13. Otimizadores – Regra Delta  <br />  <br />
 
-6.Deep Learning  <br />  <br />
+6. Deep Learning  <br />  <br />
 6.1.Introdução e conceitos básicos <br />
 6.2.A Arquitetura das Redes Neurais  <br />
 6.3. Os principais tipos de Redes Neurais  <br />
