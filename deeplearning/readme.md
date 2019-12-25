@@ -1,3 +1,5 @@
+![image](images/deep-learning.jpg)
+
 6. Deep Learning  <br />  <br />
 6.1. Introdução e conceitos básicos <br />
 6.2. A Arquitetura das Redes Neurais  <br />
