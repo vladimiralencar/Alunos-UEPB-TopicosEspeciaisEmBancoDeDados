@@ -1,0 +1,14 @@
+
+# GitHub atualiaar Maquina Local -> GitHub
+
+cd Alunos-UEPB-TopicosEspeciaisEmBancoDeDados
+git add .
+git commit -m "atualizando"
+git push origin master (usuário: vladimiralencar)
+
+
+# GitHub -> Máquina local (Atualizar)
+git add .
+git commit -m "atualizando"
+git pull origin master
+
