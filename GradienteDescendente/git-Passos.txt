@@ -6,7 +6,7 @@ git clone https://github.com/vladimiralencar/Alunos-UEPB-TopicosEspeciaisEmBanco
 cd Alunos-UEPB-TopicosEspeciaisEmBancoDeDados
 git init
 git add .
-git commit -m "atualizando"
+git commit -m "atualizado"
 git push origin master (usuário: vladimiralencar)
 
 
@@ -14,6 +14,6 @@ git push origin master (usuário: vladimiralencar)
 cd Alunos-UEPB-TopicosEspeciaisEmBancoDeDados
 git init
 git add .
-git commit -m "atualizando"
+git commit -m "atualizado"
 git pull origin master
 
