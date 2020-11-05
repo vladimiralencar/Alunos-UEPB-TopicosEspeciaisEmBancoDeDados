@@ -4,14 +4,16 @@ git clone https://github.com/vladimiralencar/Alunos-UEPB-TopicosEspeciaisEmBanco
 
 # GitHub atualizar Maquina Local -> GitHub
 cd Alunos-UEPB-TopicosEspeciaisEmBancoDeDados
+git init
 git add .
-git commit -m "atualizando"
+git commit -m "atualizado"
 git push origin master (usuário: vladimiralencar)
 
 
 # GitHub -> Máquina local (Atualizar)
 cd Alunos-UEPB-TopicosEspeciaisEmBancoDeDados
+git init
 git add .
-git commit -m "atualizando"
+git commit -m "atualizado"
 git pull origin master
 
