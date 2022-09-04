@@ -1,4 +1,5 @@
-mysql-connector-python
+mysql-connector-python-rf
 pymysql
 sqlalchemy
-pandas numpy
+pandas 
+numpy
