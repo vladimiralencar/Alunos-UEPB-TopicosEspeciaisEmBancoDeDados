@@ -1,0 +1,47 @@
+periodo_ingresso,situacao,contagem
+2012.2,Aprovado,2
+2012.2,Reprovado por Falta,1
+2012.2,Reprovado,3
+2013.1,Aprovado,3
+2013.1,Reprovado,1
+2013.2,Aprovado,3
+2013.2,Em Curso,1
+2013.2,Reprovado,4
+2013.2,Reprovado por Falta,2
+2013.2,Trancado,3
+2014.1,Aprovado,10
+2014.2,Cancelado,1
+2014.2,Reprovado,5
+2014.2,Reprovado por Falta,1
+2014.2,Aprovado,15
+2015.1,Aprovado,54
+2015.1,Reprovado,3
+2015.2,Aprovado,50
+2015.2,Cancelado,1
+2015.2,Reprovado,8
+2015.2,Reprovado por Falta,3
+2016.1,Reprovado,10
+2016.1,Aprovado,50
+2016.1,Trancado,1
+2016.1,Reprovado por Falta,4
+2016.2,Em Curso,3
+2016.2,Reprovado,15
+2016.2,Reprovado por Falta,2
+2016.2,Trancado,4
+2016.2,Aprovado,57
+2017.1,Reprovado por Falta,1
+2017.1,Aprovado,47
+2017.1,Cancelado,1
+2017.1,Em Curso,11
+2017.2,Em Curso,20
+2017.2,Reprovado por Falta,2
+2017.2,Trancado,1
+2017.2,Reprovado,1
+2017.2,Aprovado,31
+2018.1,Aprovado,5
+2018.1,Em Curso,23
+2018.2,Aprovado,6
+2018.2,Em Curso,7
+2018.2,Reprovado por Falta,2
+2019.1,Aprovado,3
+2019.2,Aprovado,7
