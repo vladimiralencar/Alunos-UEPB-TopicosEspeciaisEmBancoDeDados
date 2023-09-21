@@ -14,7 +14,7 @@ Pipeline de Aquisição de Dados em Python <br /> <br />
 5. Dataframes, Series (pacote Pandas)
 6. Strings
 7. List compreension
-8. Map/Reduce
+8. Construção de uma Interface com um framework python
 
 # Python - Pacotes Básicos
 1. Numpy <br>
@@ -32,7 +32,8 @@ Pacote para manipulação e análise de dados. Em particular, oferece estruturas
 5. ggplot2 (Gráficos)
 6. Geopandas (Mapas com Dataframes)
 7. Folium (Mapas)
-
+8. Sttreamlit - interface com um framework python
+   
 # Cursos de Python para análise dados
 
 Recomendo o curso da DataScienceAcademy (Gratuito e completo) <br />
