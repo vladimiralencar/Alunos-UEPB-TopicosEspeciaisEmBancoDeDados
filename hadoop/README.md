@@ -1,5 +1,24 @@
 ![image](hadoop.png)
 
+Hadoop
+hdfs namenode -format
+  
+start-dfs.sh
+start-yarn.sh
+
+hdfs dfs -mkdir -p /user/valencar
+hdfs dfs -ls /user/valencar
+hdfs dfs -mkdir input
+
+hdfs dfs -put *.csv input
+hdfs dfs -ls input
+
+Hadoop Cluster
+http://localhost:8088/
+
+Hadoop Dados
+http://localhost:9870/
+
 # Usando o hadoop
 Iniciando o hadoop e o gerenciador de recursos YARN: <br />
 start-dfs.sh <br />
@@ -36,6 +55,12 @@ http://dataserver:8080
 # Para Moitorar o Hadoop:
 Ativar o Browser <br />
 http://localhost:8088 <br />
+
+Hadoop Cluster
+http://localhost:8088/
+
+Hadoop Dados
+http://localhost:9870/
 
 # Aplicacao Filmes: <br />
 
