@@ -2,6 +2,7 @@
 Prof. Dr. Vladimir Costa de Alencar: webpage: https://www.valencar.com/topicos-especiais-em-banco-de-dados <br /><br />
 ![image](DataScience.png)
 Conteúdo Programático - Ciência de Dados e Big Data<br />  <br /> 
+
 1. Introdução (Motivação) <br />  <br />
 
 2. O que é Ciência de Dados (Data Science) ? <br />
