@@ -1,6 +1,6 @@
 # Curso: Introdução à Ciência de Dados e Big Data<br />
 Prof. Dr. Vladimir Costa de Alencar: webpage: https://www.valencar.com/topicos-especiais-em-banco-de-dados <br /><br />
-![image](big-data-analytics.jpg)
+![image](DataScience.png)
 Conteúdo Programático<br />  <br />
 1. Introdução (Motivação) <br />  <br />
 1.2. O que é Ciência de Dados (Data Science) ? <br />
