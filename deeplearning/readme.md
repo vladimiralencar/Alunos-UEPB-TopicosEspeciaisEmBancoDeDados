@@ -1,4 +1,4 @@
-![image](images/deep-learning.jpg)
+![image](DeepLearning.png)
 
 6. Deep Learning  <br />  <br />
 6.1. Introdução e conceitos básicos <br />
